@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="main-body">
+        <div class="info-box">
+            <h1>Learn to code by <br> watching others</h1>
+            <p class="des">See how experienced developers solve problems in real-time. 
+                Watching scripted tutorials is great, but understanding how 
+                developers think is invaluable.
+            </p>
+        </div>
+        <a href="Start Free Trial" class="free-trial1">
+            <input type="button" name="free-trial" class="free-trial" value="Try it free 7day then $20/mo. thereafter">
+        </a>
+        <div class="signup-box">
+            <form action="submit">
+                <input type="text" required class="first-name, form" name="first-name" id="first" placeholder="First Name">
+                <input type="text" class="last-name, form" name="last-name" id="last" placeholder="Last Name" required>
+                <input type="email" class="email, form" name="email" id="email" placeholder="Email Address" required pattern="\^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$\">
+                <input type="password" class="password, form" name="password" id="password" placeholder="Password" minlength="8" required>
+                <input type="submit" class="claim" name="claim" id="claim" value="Claim Your Free Trial">
+            </form>
+            <p class="fine-print">By clicking this button you are agreeing to our <span><a href="Terms and Service" class="terms" target="_blank">Terms and Services</a></span> </p>
+        </div>
+
+
+    </div>
+    
+</body>
+</html>
